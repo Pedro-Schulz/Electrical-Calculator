@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+:root {
+    --fundo: #121212;
+    --fundo-secundario: #2C2C2C;
+
+    --texto-principal: #E0E0E0;
+    --texto-secundario: #B0B0B0;
+
+    --laranja: #FF6B35;
+    --laranja2: #FF5841;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--fundo);
+}
+
