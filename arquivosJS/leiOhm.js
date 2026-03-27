@@ -6,7 +6,7 @@ export function leiOhm() {
     valores[1] = parseFloat(prompt("> Corrente (A): "));
     valores[2] = parseFloat(prompt("> Resistência (Ω): "));
 
-    for(let c = 0; c < valores.length; c ++) {
+    for(let c = 0; c < valores.length; c ++) { // Verifica se o usuário informou pelo menos dois valores
         if(!isNaN(valores[c])) {
             confirmarCalculo ++;
         }
